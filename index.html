@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400&display=swap" rel="stylesheet"> 
+   <!--Font awesome--> 
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   <!--styles-->
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Movie Info App</title>
+</head>
+<body>
+    <nav class= "navbar navbar-deflaut">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="movie.html"><i class="fa fa-film" aria-hidden="true"></i>It's Movie Time</a>
+            </div>
+        </div>
+    </nav>   
+    <div class="container">
+        <div class="jumbotron"> 
+            <h3 class="text-center">Search for Any Movie</h3>
+            <form id="searchForm">
+                <input type="text" class="form-control" id="searchText" placeholder="Search Movie">
+            </form>
+        </div>
+    </div>
+        <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>        
+    <script src="/JS/main.js"></script>
+</body>
+</html>

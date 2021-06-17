@@ -1,0 +1,23 @@
+/*font for titles*/
+a, h3{
+    font-family: 'MuseoModerno', cursive;
+}
+/*little room needed to seperate movies from input field*/
+input{
+    margin-bottom: 15px;
+} */
+
+/*responsive sizing*/
+#movies img, #movie img{
+    width:100%;
+  }
+  
+  @media(min-width:960px){
+    #movies .col-md-3 .well{
+      height: 490px;
+    }
+  
+    #movies .col-md-3 img{
+      height:340px;
+    }
+  }
